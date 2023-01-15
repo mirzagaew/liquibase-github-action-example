@@ -39,4 +39,8 @@ create table newtable (
     name varchar(50) not null
 )
 
+--changeset other.dev:5
+--rollback ALTER TABLE newtable ADD COLUMN country;
+alter table newtable add column country varchar(2)
+
 
