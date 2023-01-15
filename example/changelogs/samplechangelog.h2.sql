@@ -34,7 +34,6 @@ alter table company add column country varchar(2)
 
 --changeset yourname:mirzagaew1
 --rollback DROP TABLE mirzagaew;
-CREATE TABLE mirzagaew (
-    id int primary key,
-    name varchar(50) not null
-)
+DROP TABLE mirzagaew 
+
+
